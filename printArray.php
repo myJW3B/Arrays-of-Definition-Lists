@@ -6,9 +6,9 @@
  * Updated by github.com/Yohn
 */
 
-include('HTML/Attributes-2-tag-n-definition.php');
+include('HTML/Attribute-2-inputs.php');
 
-printArray($fill, '[', 1);
+printArray($tag, '[', 1);
 
 /**
  * printArray function

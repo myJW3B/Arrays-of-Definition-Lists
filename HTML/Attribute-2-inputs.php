@@ -181,3 +181,10 @@ $attributes = [
 	"width"               => "canvas,embed,iframe,img,input,object,video",
 	"wrap"                => "textarea"
 ];
+
+foreach($attributes as $attr => $tags){
+	$ex = explode(',', $tags);
+	foreach($ex as $t){
+		$tag[$t][] = $attr;
+	}
+}
